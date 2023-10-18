@@ -78,6 +78,14 @@ public class Methods {
 	public static String substituteAll(String source, char target, String replacement) {
 		String result = "";
 		// TODO: Finish this method
+		char[] array = source.toCharArray(); 
+		for (int i=0; i < source.length(); i++) {
+			if (array[i] == target) {
+				
+				
+			}
+		}
+		
 		
 		return result;
 	}
